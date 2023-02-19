@@ -10,10 +10,8 @@ include(widgets/widgets.pri)
 #CONFIG += conan_basic_setup
 #include(../conan/conanbuildinfo.pri)
 
-HEADERS += \
-    $$PWD/common.h
+HEADERS +=
 
-SOURCES += \
-    $$PWD/common.cpp
+SOURCES +=
 
 

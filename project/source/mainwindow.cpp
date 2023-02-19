@@ -16,11 +16,6 @@ MainWindow::MainWindow(QWidget *parent)
     m_DockManager = new ads::CDockManager(this);
     ads::CDockWidget* DockWidget = nullptr;
 
-//    QLabel* l = new QLabel();
-//    l->setWordWrap(true);
-//    l->setAlignment(Qt::AlignTop | Qt::AlignLeft);
-//    l->setText("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ");
-
     auto view = new GraphicsView(this);
     auto scene = new QGraphicsScene(view);
     view->setScene(scene);

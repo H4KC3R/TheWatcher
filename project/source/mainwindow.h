@@ -20,6 +20,5 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    ads::CDockManager* m_DockManager;
 };
 #endif // MAINWINDOW_H
